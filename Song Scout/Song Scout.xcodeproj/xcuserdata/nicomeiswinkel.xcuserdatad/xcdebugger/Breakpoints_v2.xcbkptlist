@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6DA2F7F1-328A-4B33-9790-3C7FAA0C12F9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83814A59-7B0F-480A-90E9-651B76F13C6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04D81F2A-DDB9-43E2-8A06-7157172F0A6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "314"
+            endingLineNumber = "314">
+            <Locations>
+               <Location
+                  uuid = "04D81F2A-DDB9-43E2-8A06-7157172F0A6A - d3c4d2142daca0d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Song_Scout.spotifyAPI.refreshToken() async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "04D81F2A-DDB9-43E2-8A06-7157172F0A6A - bbfb4a1f77bf5940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.refreshToken() async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "318">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73C96EBC-1D47-4E93-A221-8F4D9691E01A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318">
+            <Locations>
+               <Location
+                  uuid = "73C96EBC-1D47-4E93-A221-8F4D9691E01A - bbfb4a1f77c0a2bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.refreshToken() async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "799">
+               </Location>
+               <Location
+                  uuid = "73C96EBC-1D47-4E93-A221-8F4D9691E01A - 8d2960d66abf64be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Song_Scout.spotifyAPI.refreshToken() async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "937A51B4-CEA7-46E6-80C0-1620F53A5A9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313">
+            <Locations>
+               <Location
+                  uuid = "937A51B4-CEA7-46E6-80C0-1620F53A5A9F - d3c4d2142daca0d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Song_Scout.spotifyAPI.refreshToken() async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "937A51B4-CEA7-46E6-80C0-1620F53A5A9F - bbfb4a1f77bf5940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.refreshToken() async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "318">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF5B7A07-5C2C-423E-90E1-46D6F0A5C5C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "startPlayBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF5B7A07-5C2C-423E-90E1-46D6F0A5C5C6 - 47bc0b5ac12ee1df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "AF5B7A07-5C2C-423E-90E1-46D6F0A5C5C6 - f798af1b1de76d2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "AF5B7A07-5C2C-423E-90E1-46D6F0A5C5C6 - f798af1b1de76d2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "3352">
+               </Location>
+               <Location
+                  uuid = "AF5B7A07-5C2C-423E-90E1-46D6F0A5C5C6 - f6f61bffe39c212d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2603">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2182F11A-99CC-406A-A665-3A5226BFDED0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "startPlayBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2182F11A-99CC-406A-A665-3A5226BFDED0 - f798af1b1d989862"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "2580">
+               </Location>
+               <Location
+                  uuid = "2182F11A-99CC-406A-A665-3A5226BFDED0 - 6796f2888dccd468"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "2182F11A-99CC-406A-A665-3A5226BFDED0 - f6f61bffe3e3d460"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "2182F11A-99CC-406A-A665-3A5226BFDED0 - 755cae4dd6deb27f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Song_Scout.spotifyAPI.getTrackAnalysis(trackId: Swift.String) async throws -&gt; Swift.Optional&lt;Song_Scout.AudioAnalysis&gt;"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74F7331A-771A-4392-8716-02557C3EE10F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "startPlayBack()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84325CA7-F69B-4692-A3C0-15F67351195E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "364"
+            endingLineNumber = "364">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2374D114-4323-4FED-B37B-B2D6EA1D7D20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "addTracksToQueue(tracks:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2374D114-4323-4FED-B37B-B2D6EA1D7D20 - fd917f4d8845d3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "3332">
+               </Location>
+               <Location
+                  uuid = "2374D114-4323-4FED-B37B-B2D6EA1D7D20 - 9083f47757a3e339"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "3484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE3FEB66-C787-48BD-A31E-282F9BD17B91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "addTracksToQueue(tracks:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3D2B662-AD96-40E0-9B7A-FB488F403306"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "addTracksToQueue(tracks:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D586D024-80DA-4CF8-BD28-69D74F0F3543"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/Views/testView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "testView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "D586D024-80DA-4CF8-BD28-69D74F0F3543 - bad94d488ed1a5fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, Swift.Optional&lt;Song_Scout.SongPlayerView&gt;)&gt; in Song_Scout.testView.body.getter : some"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/Views/testView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "D586D024-80DA-4CF8-BD28-69D74F0F3543 - 7becf7cf84d2e0a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, Swift.Optional&lt;Song_Scout.SongPlayerView&gt;)&gt; in Song_Scout.testView.body.getter : some"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/Views/testView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "D586D024-80DA-4CF8-BD28-69D74F0F3543 - 264cb1ed143619ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, Swift.Optional&lt;Song_Scout.SongPlayerView&gt;)&gt; in Song_Scout.testView.body.getter : some"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/Views/testView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  uuid = "D586D024-80DA-4CF8-BD28-69D74F0F3543 - d8058a3f271bbbf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Button&lt;SwiftUI.Text&gt;, Swift.Optional&lt;Song_Scout.SongPlayerView&gt;)&gt; in Song_Scout.testView.body.getter : some"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/Views/testView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EC4F581-E3E1-4925-8F82-0E2F56B3F50E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/Views/testView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "testView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FEECA1D-DD7C-4330-B0D0-DAC47D864A36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "pausePlayBack()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4BB28BF-AD7F-4571-AD84-8693EA78A557"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "pausePlayBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4BB28BF-AD7F-4571-AD84-8693EA78A557 - 7f28c2a92c3a5585"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "605">
+               </Location>
+               <Location
+                  uuid = "A4BB28BF-AD7F-4571-AD84-8693EA78A557 - fd917f4d8845159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "286">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD5F035F-D336-4622-964B-F5E099B7D074"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "pausePlayBack()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC83B56E-DA3F-4587-B0EF-DD9E1C7AC6F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "pausePlayBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DC83B56E-DA3F-4587-B0EF-DD9E1C7AC6F0 - fd917f4d8845603"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "446">
+               </Location>
+               <Location
+                  uuid = "DC83B56E-DA3F-4587-B0EF-DD9E1C7AC6F0 - 9083f47757a3e801"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "851">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BE0ED05-0B10-4638-9A85-4CD50E405BB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "pausePlayBack()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C045809D-1B1A-4EE3-9C9C-9236559B6335"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "pausePlayBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C045809D-1B1A-4EE3-9C9C-9236559B6335 - fd917f4d8845749"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "3759">
+               </Location>
+               <Location
+                  uuid = "C045809D-1B1A-4EE3-9C9C-9236559B6335 - 91e544c3c553e7df"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "C045809D-1B1A-4EE3-9C9C-9236559B6335 - 9083f47757a3e94b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "250">
+               </Location>
+               <Location
+                  uuid = "C045809D-1B1A-4EE3-9C9C-9236559B6335 - 582144b016304a4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "149"
+                  endingLineNumber = "149"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B3831E8-40A6-4585-8487-D83A7FF13AD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/Views/testView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E43B8A1-49EE-41B9-9361-A5E9BC682349"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "skipPrevious()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B160775-38DE-442C-9CA3-2412AFC30271"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "skipNext()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1083F1FF-B218-4589-82D7-A33694177691"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Song Scout/API/spotifyAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "addTracksToQueue(tracks:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1083F1FF-B218-4589-82D7-A33694177691 - fd917f4d8845d1a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "3576">
+               </Location>
+               <Location
+                  uuid = "1083F1FF-B218-4589-82D7-A33694177691 - 9083f47757a3e318"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Song_Scout.spotifyAPI.addTracksToQueue(tracks: Swift.Array&lt;Song_Scout.Track&gt;) async throws -&gt; ()"
+                  moduleName = "Song Scout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Song%20Scout/Song%20Scout/API/spotifyAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "3728">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

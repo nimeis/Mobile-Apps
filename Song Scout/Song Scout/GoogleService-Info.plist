@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>601850378947-540v7ngftsoefpj0t4oufg831p41udm8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.601850378947-540v7ngftsoefpj0t4oufg831p41udm8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBzDeNF5Kb9ruPJuLBZ16SQD0wlTOzYXwk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>601850378947</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.LMU.Song-Scout</string>
+	<key>PROJECT_ID</key>
+	<string>remission-index</string>
+	<key>STORAGE_BUCKET</key>
+	<string>remission-index.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:601850378947:ios:eba42aa0cfe446e3680076</string>
+	<key>DATABASE_URL</key>
+	<string>https://remission-index-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

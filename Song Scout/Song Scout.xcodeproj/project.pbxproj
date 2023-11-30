@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2906669229FCDCEF0069995C /* seedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906669129FCDCEF0069995C /* seedPicker.swift */; };
+		2906669429FCE0A50069995C /* filterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906669329FCE0A50069995C /* filterPicker.swift */; };
+		298B2E1F29F77E2A005DB9BF /* Song_ScoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E1E29F77E2A005DB9BF /* Song_ScoutApp.swift */; };
+		298B2E2129F77E2A005DB9BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E2029F77E2A005DB9BF /* ContentView.swift */; };
+		298B2E2329F77E2D005DB9BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298B2E2229F77E2D005DB9BF /* Assets.xcassets */; };
+		298B2E2629F77E2D005DB9BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298B2E2529F77E2D005DB9BF /* Preview Assets.xcassets */; };
+		298B2E3029F77E2D005DB9BF /* Song_ScoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E2F29F77E2D005DB9BF /* Song_ScoutTests.swift */; };
+		298B2E3A29F77E2D005DB9BF /* Song_ScoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E3929F77E2D005DB9BF /* Song_ScoutUITests.swift */; };
+		298B2E3C29F77E2D005DB9BF /* Song_ScoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E3B29F77E2D005DB9BF /* Song_ScoutUITestsLaunchTests.swift */; };
+		298B2E4929F77EC9005DB9BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 298B2E4829F77EC9005DB9BF /* GoogleService-Info.plist */; };
+		298B2E4C29F780A1005DB9BF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 298B2E4B29F780A1005DB9BF /* FirebaseAuth */; };
+		298B2E4E29F780A1005DB9BF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 298B2E4D29F780A1005DB9BF /* FirebaseFirestore */; };
+		298B2E5129F7816E005DB9BF /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 298B2E5029F7816E005DB9BF /* FirebaseAuthUI */; };
+		298B2E5329F7816E005DB9BF /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 298B2E5229F7816E005DB9BF /* FirebaseEmailAuthUI */; };
+		298B2E5529F7816E005DB9BF /* FirebaseGoogleAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 298B2E5429F7816E005DB9BF /* FirebaseGoogleAuthUI */; };
+		298B2E5829F7822D005DB9BF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E5729F7822D005DB9BF /* ModelData.swift */; };
+		298B2E5B29F782F0005DB9BF /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E5A29F782F0005DB9BF /* testView.swift */; };
+		298B2E5D29F7842E005DB9BF /* Song_ScoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E5C29F7842E005DB9BF /* Song_ScoutDelegate.swift */; };
+		298B2E6029F784C0005DB9BF /* fireStoreAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E5F29F784C0005DB9BF /* fireStoreAuth.swift */; };
+		298B2E6229F7850B005DB9BF /* databaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E6129F7850B005DB9BF /* databaseHelper.swift */; };
+		298B2E6629F786EE005DB9BF /* authenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E6529F786EE005DB9BF /* authenticationViewController.swift */; };
+		298B2E6A29F83CC0005DB9BF /* spotifyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E6929F83CC0005DB9BF /* spotifyAPI.swift */; };
+		298B2E6C29F8526E005DB9BF /* apiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E6B29F8526D005DB9BF /* apiConstants.swift */; };
+		298B2E6E29F85407005DB9BF /* spotifyAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E6D29F85407005DB9BF /* spotifyAuthenticationViewController.swift */; };
+		298B2E7129F87365005DB9BF /* accessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298B2E7029F87365005DB9BF /* accessToken.swift */; };
+		29F2CD6D29F9DDAC00B6CC96 /* spotifyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F2CD6C29F9DDAC00B6CC96 /* spotifyError.swift */; };
+		29F2CD6F29FA0BA000B6CC96 /* spotifyStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F2CD6E29FA0BA000B6CC96 /* spotifyStructs.swift */; };
+		A9F064FC29FA05BA00B90BC1 /* SongPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F064FB29FA05BA00B90BC1 /* SongPlayerView.swift */; };
+		A9F0650029FA07D200B90BC1 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F064FF29FA07D200B90BC1 /* WaveformView.swift */; };
+		A9F0650329FA084C00B90BC1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A9F0650229FA084C00B90BC1 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		298B2E2C29F77E2D005DB9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298B2E1329F77E2A005DB9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298B2E1A29F77E2A005DB9BF;
+			remoteInfo = "Song Scout";
+		};
+		298B2E3629F77E2D005DB9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 298B2E1329F77E2A005DB9BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298B2E1A29F77E2A005DB9BF;
+			remoteInfo = "Song Scout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2906669129FCDCEF0069995C /* seedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seedPicker.swift; sourceTree = "<group>"; };
+		2906669329FCE0A50069995C /* filterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterPicker.swift; sourceTree = "<group>"; };
+		298B2E1B29F77E2A005DB9BF /* Song Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Song Scout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298B2E1E29F77E2A005DB9BF /* Song_ScoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song_ScoutApp.swift; sourceTree = "<group>"; };
+		298B2E2029F77E2A005DB9BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		298B2E2229F77E2D005DB9BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		298B2E2529F77E2D005DB9BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		298B2E2B29F77E2D005DB9BF /* Song ScoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Song ScoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298B2E2F29F77E2D005DB9BF /* Song_ScoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song_ScoutTests.swift; sourceTree = "<group>"; };
+		298B2E3529F77E2D005DB9BF /* Song ScoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Song ScoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		298B2E3929F77E2D005DB9BF /* Song_ScoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song_ScoutUITests.swift; sourceTree = "<group>"; };
+		298B2E3B29F77E2D005DB9BF /* Song_ScoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song_ScoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		298B2E4829F77EC9005DB9BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		298B2E5729F7822D005DB9BF /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		298B2E5A29F782F0005DB9BF /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		298B2E5C29F7842E005DB9BF /* Song_ScoutDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song_ScoutDelegate.swift; sourceTree = "<group>"; };
+		298B2E5F29F784C0005DB9BF /* fireStoreAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fireStoreAuth.swift; sourceTree = "<group>"; };
+		298B2E6129F7850B005DB9BF /* databaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseHelper.swift; sourceTree = "<group>"; };
+		298B2E6529F786EE005DB9BF /* authenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authenticationViewController.swift; sourceTree = "<group>"; };
+		298B2E6729F7894F005DB9BF /* Song-Scout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Song-Scout-Info.plist"; sourceTree = SOURCE_ROOT; };
+		298B2E6929F83CC0005DB9BF /* spotifyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyAPI.swift; sourceTree = "<group>"; };
+		298B2E6B29F8526D005DB9BF /* apiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiConstants.swift; sourceTree = "<group>"; };
+		298B2E6D29F85407005DB9BF /* spotifyAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyAuthenticationViewController.swift; sourceTree = "<group>"; };
+		298B2E7029F87365005DB9BF /* accessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accessToken.swift; sourceTree = "<group>"; };
+		29F2CD6C29F9DDAC00B6CC96 /* spotifyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyError.swift; sourceTree = "<group>"; };
+		29F2CD6E29FA0BA000B6CC96 /* spotifyStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyStructs.swift; sourceTree = "<group>"; };
+		A9F064FB29FA05BA00B90BC1 /* SongPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPlayerView.swift; sourceTree = "<group>"; };
+		A9F064FF29FA07D200B90BC1 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		298B2E1829F77E2A005DB9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298B2E5529F7816E005DB9BF /* FirebaseGoogleAuthUI in Frameworks */,
+				298B2E5329F7816E005DB9BF /* FirebaseEmailAuthUI in Frameworks */,
+				298B2E4C29F780A1005DB9BF /* FirebaseAuth in Frameworks */,
+				A9F0650329FA084C00B90BC1 /* Alamofire in Frameworks */,
+				298B2E5129F7816E005DB9BF /* FirebaseAuthUI in Frameworks */,
+				298B2E4E29F780A1005DB9BF /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298B2E2829F77E2D005DB9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298B2E3229F77E2D005DB9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298B2E1229F77E2A005DB9BF = {
+			isa = PBXGroup;
+			children = (
+				298B2E1D29F77E2A005DB9BF /* Song Scout */,
+				298B2E2E29F77E2D005DB9BF /* Song ScoutTests */,
+				298B2E3829F77E2D005DB9BF /* Song ScoutUITests */,
+				298B2E1C29F77E2A005DB9BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		298B2E1C29F77E2A005DB9BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E1B29F77E2A005DB9BF /* Song Scout.app */,
+				298B2E2B29F77E2D005DB9BF /* Song ScoutTests.xctest */,
+				298B2E3529F77E2D005DB9BF /* Song ScoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		298B2E1D29F77E2A005DB9BF /* Song Scout */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E2229F77E2D005DB9BF /* Assets.xcassets */,
+				298B2E4829F77EC9005DB9BF /* GoogleService-Info.plist */,
+				298B2E6729F7894F005DB9BF /* Song-Scout-Info.plist */,
+				298B2E1E29F77E2A005DB9BF /* Song_ScoutApp.swift */,
+				298B2E5C29F7842E005DB9BF /* Song_ScoutDelegate.swift */,
+				298B2E2029F77E2A005DB9BF /* ContentView.swift */,
+				298B2E6829F83C44005DB9BF /* API */,
+				298B2E5E29F784A8005DB9BF /* Firestore */,
+				298B2E5929F782B9005DB9BF /* Views */,
+				298B2E5629F7820C005DB9BF /* Model Data */,
+				298B2E2429F77E2D005DB9BF /* Preview Content */,
+			);
+			path = "Song Scout";
+			sourceTree = "<group>";
+		};
+		298B2E2429F77E2D005DB9BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E2529F77E2D005DB9BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		298B2E2E29F77E2D005DB9BF /* Song ScoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E2F29F77E2D005DB9BF /* Song_ScoutTests.swift */,
+			);
+			path = "Song ScoutTests";
+			sourceTree = "<group>";
+		};
+		298B2E3829F77E2D005DB9BF /* Song ScoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E3929F77E2D005DB9BF /* Song_ScoutUITests.swift */,
+				298B2E3B29F77E2D005DB9BF /* Song_ScoutUITestsLaunchTests.swift */,
+			);
+			path = "Song ScoutUITests";
+			sourceTree = "<group>";
+		};
+		298B2E5629F7820C005DB9BF /* Model Data */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E5729F7822D005DB9BF /* ModelData.swift */,
+			);
+			path = "Model Data";
+			sourceTree = "<group>";
+		};
+		298B2E5929F782B9005DB9BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E5A29F782F0005DB9BF /* testView.swift */,
+				298B2E6529F786EE005DB9BF /* authenticationViewController.swift */,
+				298B2E6D29F85407005DB9BF /* spotifyAuthenticationViewController.swift */,
+				A9F064FB29FA05BA00B90BC1 /* SongPlayerView.swift */,
+				A9F064FF29FA07D200B90BC1 /* WaveformView.swift */,
+				2906669129FCDCEF0069995C /* seedPicker.swift */,
+				2906669329FCE0A50069995C /* filterPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		298B2E5E29F784A8005DB9BF /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E5F29F784C0005DB9BF /* fireStoreAuth.swift */,
+				298B2E6129F7850B005DB9BF /* databaseHelper.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		298B2E6829F83C44005DB9BF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E6F29F87345005DB9BF /* apiStructs */,
+				298B2E6929F83CC0005DB9BF /* spotifyAPI.swift */,
+				298B2E6B29F8526D005DB9BF /* apiConstants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		298B2E6F29F87345005DB9BF /* apiStructs */ = {
+			isa = PBXGroup;
+			children = (
+				298B2E7029F87365005DB9BF /* accessToken.swift */,
+				29F2CD6C29F9DDAC00B6CC96 /* spotifyError.swift */,
+				29F2CD6E29FA0BA000B6CC96 /* spotifyStructs.swift */,
+			);
+			path = apiStructs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		298B2E1A29F77E2A005DB9BF /* Song Scout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298B2E3F29F77E2D005DB9BF /* Build configuration list for PBXNativeTarget "Song Scout" */;
+			buildPhases = (
+				298B2E1729F77E2A005DB9BF /* Sources */,
+				298B2E1829F77E2A005DB9BF /* Frameworks */,
+				298B2E1929F77E2A005DB9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Song Scout";
+			packageProductDependencies = (
+				298B2E4B29F780A1005DB9BF /* FirebaseAuth */,
+				298B2E4D29F780A1005DB9BF /* FirebaseFirestore */,
+				298B2E5029F7816E005DB9BF /* FirebaseAuthUI */,
+				298B2E5229F7816E005DB9BF /* FirebaseEmailAuthUI */,
+				298B2E5429F7816E005DB9BF /* FirebaseGoogleAuthUI */,
+				A9F0650229FA084C00B90BC1 /* Alamofire */,
+			);
+			productName = "Song Scout";
+			productReference = 298B2E1B29F77E2A005DB9BF /* Song Scout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		298B2E2A29F77E2D005DB9BF /* Song ScoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298B2E4229F77E2D005DB9BF /* Build configuration list for PBXNativeTarget "Song ScoutTests" */;
+			buildPhases = (
+				298B2E2729F77E2D005DB9BF /* Sources */,
+				298B2E2829F77E2D005DB9BF /* Frameworks */,
+				298B2E2929F77E2D005DB9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298B2E2D29F77E2D005DB9BF /* PBXTargetDependency */,
+			);
+			name = "Song ScoutTests";
+			productName = "Song ScoutTests";
+			productReference = 298B2E2B29F77E2D005DB9BF /* Song ScoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		298B2E3429F77E2D005DB9BF /* Song ScoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298B2E4529F77E2D005DB9BF /* Build configuration list for PBXNativeTarget "Song ScoutUITests" */;
+			buildPhases = (
+				298B2E3129F77E2D005DB9BF /* Sources */,
+				298B2E3229F77E2D005DB9BF /* Frameworks */,
+				298B2E3329F77E2D005DB9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298B2E3729F77E2D005DB9BF /* PBXTargetDependency */,
+			);
+			name = "Song ScoutUITests";
+			productName = "Song ScoutUITests";
+			productReference = 298B2E3529F77E2D005DB9BF /* Song ScoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		298B2E1329F77E2A005DB9BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					298B2E1A29F77E2A005DB9BF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					298B2E2A29F77E2D005DB9BF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 298B2E1A29F77E2A005DB9BF;
+					};
+					298B2E3429F77E2D005DB9BF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 298B2E1A29F77E2A005DB9BF;
+					};
+				};
+			};
+			buildConfigurationList = 298B2E1629F77E2A005DB9BF /* Build configuration list for PBXProject "Song Scout" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 298B2E1229F77E2A005DB9BF;
+			packageReferences = (
+				298B2E4A29F780A1005DB9BF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				298B2E4F29F7816E005DB9BF /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
+				A9F0650129FA084C00B90BC1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 298B2E1C29F77E2A005DB9BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298B2E1A29F77E2A005DB9BF /* Song Scout */,
+				298B2E2A29F77E2D005DB9BF /* Song ScoutTests */,
+				298B2E3429F77E2D005DB9BF /* Song ScoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		298B2E1929F77E2A005DB9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298B2E2629F77E2D005DB9BF /* Preview Assets.xcassets in Resources */,
+				298B2E4929F77EC9005DB9BF /* GoogleService-Info.plist in Resources */,
+				298B2E2329F77E2D005DB9BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298B2E2929F77E2D005DB9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298B2E3329F77E2D005DB9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298B2E1729F77E2A005DB9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298B2E6E29F85407005DB9BF /* spotifyAuthenticationViewController.swift in Sources */,
+				298B2E5D29F7842E005DB9BF /* Song_ScoutDelegate.swift in Sources */,
+				A9F0650029FA07D200B90BC1 /* WaveformView.swift in Sources */,
+				298B2E6029F784C0005DB9BF /* fireStoreAuth.swift in Sources */,
+				298B2E7129F87365005DB9BF /* accessToken.swift in Sources */,
+				298B2E6C29F8526E005DB9BF /* apiConstants.swift in Sources */,
+				29F2CD6D29F9DDAC00B6CC96 /* spotifyError.swift in Sources */,
+				298B2E6A29F83CC0005DB9BF /* spotifyAPI.swift in Sources */,
+				29F2CD6F29FA0BA000B6CC96 /* spotifyStructs.swift in Sources */,
+				298B2E5B29F782F0005DB9BF /* testView.swift in Sources */,
+				A9F064FC29FA05BA00B90BC1 /* SongPlayerView.swift in Sources */,
+				298B2E2129F77E2A005DB9BF /* ContentView.swift in Sources */,
+				298B2E6629F786EE005DB9BF /* authenticationViewController.swift in Sources */,
+				2906669429FCE0A50069995C /* filterPicker.swift in Sources */,
+				298B2E6229F7850B005DB9BF /* databaseHelper.swift in Sources */,
+				2906669229FCDCEF0069995C /* seedPicker.swift in Sources */,
+				298B2E1F29F77E2A005DB9BF /* Song_ScoutApp.swift in Sources */,
+				298B2E5829F7822D005DB9BF /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298B2E2729F77E2D005DB9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298B2E3029F77E2D005DB9BF /* Song_ScoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298B2E3129F77E2D005DB9BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298B2E3C29F77E2D005DB9BF /* Song_ScoutUITestsLaunchTests.swift in Sources */,
+				298B2E3A29F77E2D005DB9BF /* Song_ScoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		298B2E2D29F77E2D005DB9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298B2E1A29F77E2A005DB9BF /* Song Scout */;
+			targetProxy = 298B2E2C29F77E2D005DB9BF /* PBXContainerItemProxy */;
+		};
+		298B2E3729F77E2D005DB9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298B2E1A29F77E2A005DB9BF /* Song Scout */;
+			targetProxy = 298B2E3629F77E2D005DB9BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		298B2E3D29F77E2D005DB9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		298B2E3E29F77E2D005DB9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		298B2E4029F77E2D005DB9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Song Scout/Preview Content\"";
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Song-Scout-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Song-Scout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		298B2E4129F77E2D005DB9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Song Scout/Preview Content\"";
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Song-Scout-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Song-Scout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		298B2E4329F77E2D005DB9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Song-ScoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Song Scout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Song Scout";
+			};
+			name = Debug;
+		};
+		298B2E4429F77E2D005DB9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Song-ScoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Song Scout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Song Scout";
+			};
+			name = Release;
+		};
+		298B2E4629F77E2D005DB9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Song-ScoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Song Scout";
+			};
+			name = Debug;
+		};
+		298B2E4729F77E2D005DB9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Song-ScoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Song Scout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298B2E1629F77E2A005DB9BF /* Build configuration list for PBXProject "Song Scout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298B2E3D29F77E2D005DB9BF /* Debug */,
+				298B2E3E29F77E2D005DB9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298B2E3F29F77E2D005DB9BF /* Build configuration list for PBXNativeTarget "Song Scout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298B2E4029F77E2D005DB9BF /* Debug */,
+				298B2E4129F77E2D005DB9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298B2E4229F77E2D005DB9BF /* Build configuration list for PBXNativeTarget "Song ScoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298B2E4329F77E2D005DB9BF /* Debug */,
+				298B2E4429F77E2D005DB9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298B2E4529F77E2D005DB9BF /* Build configuration list for PBXNativeTarget "Song ScoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298B2E4629F77E2D005DB9BF /* Debug */,
+				298B2E4729F77E2D005DB9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		298B2E4A29F780A1005DB9BF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		298B2E4F29F7816E005DB9BF /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A9F0650129FA084C00B90BC1 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		298B2E4B29F780A1005DB9BF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298B2E4A29F780A1005DB9BF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		298B2E4D29F780A1005DB9BF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298B2E4A29F780A1005DB9BF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		298B2E5029F7816E005DB9BF /* FirebaseAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298B2E4F29F7816E005DB9BF /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAuthUI;
+		};
+		298B2E5229F7816E005DB9BF /* FirebaseEmailAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298B2E4F29F7816E005DB9BF /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseEmailAuthUI;
+		};
+		298B2E5429F7816E005DB9BF /* FirebaseGoogleAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298B2E4F29F7816E005DB9BF /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseGoogleAuthUI;
+		};
+		A9F0650229FA084C00B90BC1 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9F0650129FA084C00B90BC1 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 298B2E1329F77E2A005DB9BF /* Project object */;
+}
