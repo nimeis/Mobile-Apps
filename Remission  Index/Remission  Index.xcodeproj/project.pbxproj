@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29127E632996A78F00F1ECBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127E622996A78F00F1ECBA /* ContentView.swift */; };
+		29127E652996A79300F1ECBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29127E642996A79300F1ECBA /* Assets.xcassets */; };
+		29127E682996A79300F1ECBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29127E672996A79300F1ECBA /* Preview Assets.xcassets */; };
+		29127E722996A79400F1ECBA /* Remission__IndexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127E712996A79400F1ECBA /* Remission__IndexTests.swift */; };
+		29127E7C2996A79400F1ECBA /* Remission__IndexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127E7B2996A79400F1ECBA /* Remission__IndexUITests.swift */; };
+		29127E7E2996A79400F1ECBA /* Remission__IndexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127E7D2996A79400F1ECBA /* Remission__IndexUITestsLaunchTests.swift */; };
+		29127E8C2996A7C100F1ECBA /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127E8B2996A7C100F1ECBA /* welcomeView.swift */; };
+		29127E8E2996A9F100F1ECBA /* surveyVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127E8D2996A9F100F1ECBA /* surveyVeiw.swift */; };
+		29127EA32996D2C100F1ECBA /* survey.json in Resources */ = {isa = PBXBuildFile; fileRef = 29127EA22996D2C100F1ECBA /* survey.json */; };
+		29127EA62996D8C500F1ECBA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127EA52996D8C500F1ECBA /* ModelData.swift */; };
+		29127EA82996D8E300F1ECBA /* surveySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127EA72996D8E300F1ECBA /* surveySection.swift */; };
+		29127EAA2996DD7800F1ECBA /* prevScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127EA92996DD7800F1ECBA /* prevScoreRow.swift */; };
+		29127EAC2996DF0700F1ECBA /* previousScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127EAB2996DF0700F1ECBA /* previousScores.swift */; };
+		29127EAE2996EE8C00F1ECBA /* sectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127EAD2996EE8C00F1ECBA /* sectionView.swift */; };
+		29127EB02996F47D00F1ECBA /* defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127EAF2996F47D00F1ECBA /* defaults.swift */; };
+		294D3358299B04B100DDE51B /* submitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D3357299B04B100DDE51B /* submitButton.swift */; };
+		294D3359299B118800DDE51B /* Remission__IndexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29127E602996A78F00F1ECBA /* Remission__IndexApp.swift */; };
+		2965AEF129E9093C00CB49B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2965AEF029E9093C00CB49B2 /* GoogleService-Info.plist */; };
+		29797036299DC41B0008A612 /* scoresDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29797035299DC41B0008A612 /* scoresDatabase.swift */; };
+		29797039299DCA4E0008A612 /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 29797038299DCA4E0008A612 /* FirebaseAuthUI */; };
+		2979703B299DCA4E0008A612 /* FirebaseGoogleAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2979703A299DCA4E0008A612 /* FirebaseGoogleAuthUI */; };
+		29DD339B29E75F2B004A8CDA /* previosScoreSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD339A29E75F2B004A8CDA /* previosScoreSnapshot.swift */; };
+		29DD339D29E77AC1004A8CDA /* prevScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD339C29E77AC1004A8CDA /* prevScore.swift */; };
+		29DD339F29E786BA004A8CDA /* previousScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD339E29E786BA004A8CDA /* previousScoresView.swift */; };
+		29DD33A129E78EA1004A8CDA /* surveyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD33A029E78EA1004A8CDA /* surveyRow.swift */; };
+		29DD33A329E89FF7004A8CDA /* submissionBlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD33A229E89FF7004A8CDA /* submissionBlogView.swift */; };
+		29DD33A529E8C8D0004A8CDA /* userSubmission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD33A429E8C8D0004A8CDA /* userSubmission.swift */; };
+		29DD33A729E8D58E004A8CDA /* userSubmissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD33A629E8D58E004A8CDA /* userSubmissionView.swift */; };
+		29DEF3B229E688020050EB94 /* submission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DEF3B129E688020050EB94 /* submission.swift */; };
+		29E962BC29CBCC4600D68711 /* fireStoreAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E962BB29CBCC4600D68711 /* fireStoreAuth.swift */; };
+		29E962BE29CBCD8400D68711 /* remissionIndexDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E962BD29CBCD8400D68711 /* remissionIndexDelegate.swift */; };
+		29E962C029CBD10700D68711 /* surveyDatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E962BF29CBD10700D68711 /* surveyDatabaseHelper.swift */; };
+		29E962C229CBD38100D68711 /* authenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E962C129CBD38100D68711 /* authenticationViewController.swift */; };
+		29E9D95A299D4B8A00DBE37B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 29E9D959299D4B8A00DBE37B /* FirebaseAnalytics */; };
+		29E9D95C299D4B8A00DBE37B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 29E9D95B299D4B8A00DBE37B /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29127E6E2996A79400F1ECBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29127E552996A78F00F1ECBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29127E5C2996A78F00F1ECBA;
+			remoteInfo = "Remission  Index";
+		};
+		29127E782996A79400F1ECBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29127E552996A78F00F1ECBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29127E5C2996A78F00F1ECBA;
+			remoteInfo = "Remission  Index";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29127E5D2996A78F00F1ECBA /* Remission  Index.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remission  Index.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29127E602996A78F00F1ECBA /* Remission__IndexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remission__IndexApp.swift; sourceTree = "<group>"; };
+		29127E622996A78F00F1ECBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29127E642996A79300F1ECBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29127E672996A79300F1ECBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29127E6D2996A79400F1ECBA /* Remission  IndexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remission  IndexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29127E712996A79400F1ECBA /* Remission__IndexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remission__IndexTests.swift; sourceTree = "<group>"; };
+		29127E772996A79400F1ECBA /* Remission  IndexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remission  IndexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29127E7B2996A79400F1ECBA /* Remission__IndexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remission__IndexUITests.swift; sourceTree = "<group>"; };
+		29127E7D2996A79400F1ECBA /* Remission__IndexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remission__IndexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29127E8B2996A7C100F1ECBA /* welcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
+		29127E8D2996A9F100F1ECBA /* surveyVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyVeiw.swift; sourceTree = "<group>"; };
+		29127EA22996D2C100F1ECBA /* survey.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = survey.json; sourceTree = "<group>"; };
+		29127EA52996D8C500F1ECBA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		29127EA72996D8E300F1ECBA /* surveySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveySection.swift; sourceTree = "<group>"; };
+		29127EA92996DD7800F1ECBA /* prevScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prevScoreRow.swift; sourceTree = "<group>"; };
+		29127EAB2996DF0700F1ECBA /* previousScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previousScores.swift; sourceTree = "<group>"; };
+		29127EAD2996EE8C00F1ECBA /* sectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sectionView.swift; sourceTree = "<group>"; };
+		29127EAF2996F47D00F1ECBA /* defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaults.swift; sourceTree = "<group>"; };
+		294D3357299B04B100DDE51B /* submitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submitButton.swift; sourceTree = "<group>"; };
+		2965AEF029E9093C00CB49B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2977E44829D376FC002A77E5 /* Remission--Index-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Remission--Index-Info.plist"; sourceTree = SOURCE_ROOT; };
+		29797035299DC41B0008A612 /* scoresDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoresDatabase.swift; sourceTree = "<group>"; };
+		29DD339A29E75F2B004A8CDA /* previosScoreSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previosScoreSnapshot.swift; sourceTree = "<group>"; };
+		29DD339C29E77AC1004A8CDA /* prevScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prevScore.swift; sourceTree = "<group>"; };
+		29DD339E29E786BA004A8CDA /* previousScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previousScoresView.swift; sourceTree = "<group>"; };
+		29DD33A029E78EA1004A8CDA /* surveyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyRow.swift; sourceTree = "<group>"; };
+		29DD33A229E89FF7004A8CDA /* submissionBlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submissionBlogView.swift; sourceTree = "<group>"; };
+		29DD33A429E8C8D0004A8CDA /* userSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSubmission.swift; sourceTree = "<group>"; };
+		29DD33A629E8D58E004A8CDA /* userSubmissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSubmissionView.swift; sourceTree = "<group>"; };
+		29DEF3B129E688020050EB94 /* submission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submission.swift; sourceTree = "<group>"; };
+		29E962BB29CBCC4600D68711 /* fireStoreAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fireStoreAuth.swift; sourceTree = "<group>"; };
+		29E962BD29CBCD8400D68711 /* remissionIndexDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remissionIndexDelegate.swift; sourceTree = "<group>"; };
+		29E962BF29CBD10700D68711 /* surveyDatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyDatabaseHelper.swift; sourceTree = "<group>"; };
+		29E962C129CBD38100D68711 /* authenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authenticationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29127E5A2996A78F00F1ECBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E9D95A299D4B8A00DBE37B /* FirebaseAnalytics in Frameworks */,
+				29797039299DCA4E0008A612 /* FirebaseAuthUI in Frameworks */,
+				2979703B299DCA4E0008A612 /* FirebaseGoogleAuthUI in Frameworks */,
+				29E9D95C299D4B8A00DBE37B /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29127E6A2996A79400F1ECBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29127E742996A79400F1ECBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29127E542996A78F00F1ECBA = {
+			isa = PBXGroup;
+			children = (
+				29127E5F2996A78F00F1ECBA /* Remission  Index */,
+				29127E702996A79400F1ECBA /* Remission  IndexTests */,
+				29127E7A2996A79400F1ECBA /* Remission  IndexUITests */,
+				29127E5E2996A78F00F1ECBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29127E5E2996A78F00F1ECBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29127E5D2996A78F00F1ECBA /* Remission  Index.app */,
+				29127E6D2996A79400F1ECBA /* Remission  IndexTests.xctest */,
+				29127E772996A79400F1ECBA /* Remission  IndexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29127E5F2996A78F00F1ECBA /* Remission  Index */ = {
+			isa = PBXGroup;
+			children = (
+				2965AEF029E9093C00CB49B2 /* GoogleService-Info.plist */,
+				2977E44829D376FC002A77E5 /* Remission--Index-Info.plist */,
+				29E962BA29CBCC2500D68711 /* Service */,
+				29127EA42996D8AD00F1ECBA /* modelData */,
+				29127E8A2996A7B000F1ECBA /* Views */,
+				29127E602996A78F00F1ECBA /* Remission__IndexApp.swift */,
+				29E962BD29CBCD8400D68711 /* remissionIndexDelegate.swift */,
+				29127E622996A78F00F1ECBA /* ContentView.swift */,
+				29127EA12996D29700F1ECBA /* Assets */,
+				29127E662996A79300F1ECBA /* Preview Content */,
+			);
+			path = "Remission  Index";
+			sourceTree = "<group>";
+		};
+		29127E662996A79300F1ECBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29127E672996A79300F1ECBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29127E702996A79400F1ECBA /* Remission  IndexTests */ = {
+			isa = PBXGroup;
+			children = (
+				29127E712996A79400F1ECBA /* Remission__IndexTests.swift */,
+			);
+			path = "Remission  IndexTests";
+			sourceTree = "<group>";
+		};
+		29127E7A2996A79400F1ECBA /* Remission  IndexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29127E7B2996A79400F1ECBA /* Remission__IndexUITests.swift */,
+				29127E7D2996A79400F1ECBA /* Remission__IndexUITestsLaunchTests.swift */,
+			);
+			path = "Remission  IndexUITests";
+			sourceTree = "<group>";
+		};
+		29127E8A2996A7B000F1ECBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29127E8B2996A7C100F1ECBA /* welcomeView.swift */,
+				29127E8D2996A9F100F1ECBA /* surveyVeiw.swift */,
+				294D3357299B04B100DDE51B /* submitButton.swift */,
+				29127EAD2996EE8C00F1ECBA /* sectionView.swift */,
+				29127EA92996DD7800F1ECBA /* prevScoreRow.swift */,
+				29127EAB2996DF0700F1ECBA /* previousScores.swift */,
+				29E962C129CBD38100D68711 /* authenticationViewController.swift */,
+				29DD339C29E77AC1004A8CDA /* prevScore.swift */,
+				29DD339E29E786BA004A8CDA /* previousScoresView.swift */,
+				29DD33A029E78EA1004A8CDA /* surveyRow.swift */,
+				29DD33A229E89FF7004A8CDA /* submissionBlogView.swift */,
+				29DD33A629E8D58E004A8CDA /* userSubmissionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29127EA12996D29700F1ECBA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				29127E642996A79300F1ECBA /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		29127EA42996D8AD00F1ECBA /* modelData */ = {
+			isa = PBXGroup;
+			children = (
+				29127EA22996D2C100F1ECBA /* survey.json */,
+				29127EA52996D8C500F1ECBA /* ModelData.swift */,
+				29127EA72996D8E300F1ECBA /* surveySection.swift */,
+				29127EAF2996F47D00F1ECBA /* defaults.swift */,
+				29797035299DC41B0008A612 /* scoresDatabase.swift */,
+				29DEF3B129E688020050EB94 /* submission.swift */,
+				29DD339A29E75F2B004A8CDA /* previosScoreSnapshot.swift */,
+				29DD33A429E8C8D0004A8CDA /* userSubmission.swift */,
+			);
+			path = modelData;
+			sourceTree = "<group>";
+		};
+		29E962BA29CBCC2500D68711 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				29E962BB29CBCC4600D68711 /* fireStoreAuth.swift */,
+				29E962BF29CBD10700D68711 /* surveyDatabaseHelper.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29127E5C2996A78F00F1ECBA /* Remission  Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29127E812996A79400F1ECBA /* Build configuration list for PBXNativeTarget "Remission  Index" */;
+			buildPhases = (
+				29127E592996A78F00F1ECBA /* Sources */,
+				29127E5A2996A78F00F1ECBA /* Frameworks */,
+				29127E5B2996A78F00F1ECBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remission  Index";
+			packageProductDependencies = (
+				29E9D959299D4B8A00DBE37B /* FirebaseAnalytics */,
+				29E9D95B299D4B8A00DBE37B /* FirebaseFirestore */,
+				29797038299DCA4E0008A612 /* FirebaseAuthUI */,
+				2979703A299DCA4E0008A612 /* FirebaseGoogleAuthUI */,
+			);
+			productName = "Remission  Index";
+			productReference = 29127E5D2996A78F00F1ECBA /* Remission  Index.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29127E6C2996A79400F1ECBA /* Remission  IndexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29127E842996A79400F1ECBA /* Build configuration list for PBXNativeTarget "Remission  IndexTests" */;
+			buildPhases = (
+				29127E692996A79400F1ECBA /* Sources */,
+				29127E6A2996A79400F1ECBA /* Frameworks */,
+				29127E6B2996A79400F1ECBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29127E6F2996A79400F1ECBA /* PBXTargetDependency */,
+			);
+			name = "Remission  IndexTests";
+			productName = "Remission  IndexTests";
+			productReference = 29127E6D2996A79400F1ECBA /* Remission  IndexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29127E762996A79400F1ECBA /* Remission  IndexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29127E872996A79400F1ECBA /* Build configuration list for PBXNativeTarget "Remission  IndexUITests" */;
+			buildPhases = (
+				29127E732996A79400F1ECBA /* Sources */,
+				29127E742996A79400F1ECBA /* Frameworks */,
+				29127E752996A79400F1ECBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29127E792996A79400F1ECBA /* PBXTargetDependency */,
+			);
+			name = "Remission  IndexUITests";
+			productName = "Remission  IndexUITests";
+			productReference = 29127E772996A79400F1ECBA /* Remission  IndexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29127E552996A78F00F1ECBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					29127E5C2996A78F00F1ECBA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					29127E6C2996A79400F1ECBA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 29127E5C2996A78F00F1ECBA;
+					};
+					29127E762996A79400F1ECBA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 29127E5C2996A78F00F1ECBA;
+					};
+				};
+			};
+			buildConfigurationList = 29127E582996A78F00F1ECBA /* Build configuration list for PBXProject "Remission  Index" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29127E542996A78F00F1ECBA;
+			packageReferences = (
+				29E9D958299D4B8A00DBE37B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				29797037299DCA4D0008A612 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
+			);
+			productRefGroup = 29127E5E2996A78F00F1ECBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29127E5C2996A78F00F1ECBA /* Remission  Index */,
+				29127E6C2996A79400F1ECBA /* Remission  IndexTests */,
+				29127E762996A79400F1ECBA /* Remission  IndexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29127E5B2996A78F00F1ECBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29127EA32996D2C100F1ECBA /* survey.json in Resources */,
+				2965AEF129E9093C00CB49B2 /* GoogleService-Info.plist in Resources */,
+				29127E682996A79300F1ECBA /* Preview Assets.xcassets in Resources */,
+				29127E652996A79300F1ECBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29127E6B2996A79400F1ECBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29127E752996A79400F1ECBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29127E592996A78F00F1ECBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29127EAE2996EE8C00F1ECBA /* sectionView.swift in Sources */,
+				29DEF3B229E688020050EB94 /* submission.swift in Sources */,
+				29E962BE29CBCD8400D68711 /* remissionIndexDelegate.swift in Sources */,
+				29127EAA2996DD7800F1ECBA /* prevScoreRow.swift in Sources */,
+				294D3359299B118800DDE51B /* Remission__IndexApp.swift in Sources */,
+				29797036299DC41B0008A612 /* scoresDatabase.swift in Sources */,
+				29DD33A329E89FF7004A8CDA /* submissionBlogView.swift in Sources */,
+				29127E8E2996A9F100F1ECBA /* surveyVeiw.swift in Sources */,
+				29DD33A529E8C8D0004A8CDA /* userSubmission.swift in Sources */,
+				29DD33A729E8D58E004A8CDA /* userSubmissionView.swift in Sources */,
+				29127E632996A78F00F1ECBA /* ContentView.swift in Sources */,
+				294D3358299B04B100DDE51B /* submitButton.swift in Sources */,
+				29127EAC2996DF0700F1ECBA /* previousScores.swift in Sources */,
+				29127EA82996D8E300F1ECBA /* surveySection.swift in Sources */,
+				29E962C029CBD10700D68711 /* surveyDatabaseHelper.swift in Sources */,
+				29127EB02996F47D00F1ECBA /* defaults.swift in Sources */,
+				29E962C229CBD38100D68711 /* authenticationViewController.swift in Sources */,
+				29127E8C2996A7C100F1ECBA /* welcomeView.swift in Sources */,
+				29DD33A129E78EA1004A8CDA /* surveyRow.swift in Sources */,
+				29E962BC29CBCC4600D68711 /* fireStoreAuth.swift in Sources */,
+				29DD339D29E77AC1004A8CDA /* prevScore.swift in Sources */,
+				29127EA62996D8C500F1ECBA /* ModelData.swift in Sources */,
+				29DD339F29E786BA004A8CDA /* previousScoresView.swift in Sources */,
+				29DD339B29E75F2B004A8CDA /* previosScoreSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29127E692996A79400F1ECBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29127E722996A79400F1ECBA /* Remission__IndexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29127E732996A79400F1ECBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29127E7C2996A79400F1ECBA /* Remission__IndexUITests.swift in Sources */,
+				29127E7E2996A79400F1ECBA /* Remission__IndexUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29127E6F2996A79400F1ECBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29127E5C2996A78F00F1ECBA /* Remission  Index */;
+			targetProxy = 29127E6E2996A79400F1ECBA /* PBXContainerItemProxy */;
+		};
+		29127E792996A79400F1ECBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29127E5C2996A78F00F1ECBA /* Remission  Index */;
+			targetProxy = 29127E782996A79400F1ECBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29127E7F2996A79400F1ECBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29127E802996A79400F1ECBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29127E822996A79400F1ECBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remission  Index/Preview Content\"";
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remission--Index-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Remission--Index";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29127E832996A79400F1ECBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Remission  Index/Preview Content\"";
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remission--Index-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Remission--Index";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29127E852996A79400F1ECBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Remission--IndexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remission  Index.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remission  Index";
+			};
+			name = Debug;
+		};
+		29127E862996A79400F1ECBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Remission--IndexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remission  Index.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Remission  Index";
+			};
+			name = Release;
+		};
+		29127E882996A79400F1ECBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Remission--IndexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Remission  Index";
+			};
+			name = Debug;
+		};
+		29127E892996A79400F1ECBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U85B2H6L6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.LMU.Remission--IndexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Remission  Index";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29127E582996A78F00F1ECBA /* Build configuration list for PBXProject "Remission  Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29127E7F2996A79400F1ECBA /* Debug */,
+				29127E802996A79400F1ECBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29127E812996A79400F1ECBA /* Build configuration list for PBXNativeTarget "Remission  Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29127E822996A79400F1ECBA /* Debug */,
+				29127E832996A79400F1ECBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29127E842996A79400F1ECBA /* Build configuration list for PBXNativeTarget "Remission  IndexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29127E852996A79400F1ECBA /* Debug */,
+				29127E862996A79400F1ECBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29127E872996A79400F1ECBA /* Build configuration list for PBXNativeTarget "Remission  IndexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29127E882996A79400F1ECBA /* Debug */,
+				29127E892996A79400F1ECBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29797037299DCA4D0008A612 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.3.1;
+			};
+		};
+		29E9D958299D4B8A00DBE37B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29797038299DCA4E0008A612 /* FirebaseAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29797037299DCA4D0008A612 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAuthUI;
+		};
+		2979703A299DCA4E0008A612 /* FirebaseGoogleAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29797037299DCA4D0008A612 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseGoogleAuthUI;
+		};
+		29E9D959299D4B8A00DBE37B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29E9D958299D4B8A00DBE37B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		29E9D95B299D4B8A00DBE37B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29E9D958299D4B8A00DBE37B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 29127E552996A78F00F1ECBA /* Project object */;
+}
