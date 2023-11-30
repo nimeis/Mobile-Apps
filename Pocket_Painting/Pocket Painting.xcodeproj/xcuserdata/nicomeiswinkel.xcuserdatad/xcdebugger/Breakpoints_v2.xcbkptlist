@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D65526DF-56AF-4076-A77B-EC34E7BDC85B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD9AD31A-1680-40B7-9233-FC15EAE83828"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "imageGeneration(prompt:n:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73ED6EF0-ED27-4B17-8496-51B2A547CA6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "imageGeneration(prompt:n:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BB07A4C-1D78-4A61-A041-6B398425CD42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "imageGeneration(prompt:n:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9894453-8931-40C4-8E4E-20F5B1EC7CE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "imageGeneration(prompt:n:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F15B585-317A-43F1-A1BE-FE99A108FD27"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "imageGeneration(prompt:n:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "0F15B585-317A-43F1-A1BE-FE99A108FD27 - edd8e68148374df5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Pocket_Painting.postMethod() async throws -&gt; Pocket_Painting.dalleResponse"
+                  moduleName = "Pocket Painting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Pocket%20Painting/Pocket%20Painting/Model/Dalle-api/DallePropmter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "0F15B585-317A-43F1-A1BE-FE99A108FD27 - f80c93955d24334c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Pocket_Painting.postMethod() async throws -&gt; Pocket_Painting.dalleResponse"
+                  moduleName = "Pocket Painting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Pocket%20Painting/Pocket%20Painting/Model/Dalle-api/DallePropmter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  uuid = "0F15B585-317A-43F1-A1BE-FE99A108FD27 - f80c93955d243196"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Pocket_Painting.postMethod() async throws -&gt; Pocket_Painting.dalleResponse"
+                  moduleName = "Pocket Painting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Pocket%20Painting/Pocket%20Painting/Model/Dalle-api/DallePropmter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "345">
+               </Location>
+               <Location
+                  uuid = "0F15B585-317A-43F1-A1BE-FE99A108FD27 - 8d93a074a03c9f89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Pocket_Painting.postMethod() async throws -&gt; Pocket_Painting.dalleResponse"
+                  moduleName = "Pocket Painting"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nicomeiswinkel/Desktop/LMU_CMSI/LMU_app_dev/Pocket%20Painting/Pocket%20Painting/Model/Dalle-api/DallePropmter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "799">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7281C52-0818-4093-BFF4-D30B4C7E10E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "imageGeneration(prompt:n:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15F98598-398D-4D93-A0E5-FC0A0CDA29E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "imageGeneration(prompt:n:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B427B3A1-26E8-4C22-B8B2-EC8DE79C3C15"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/dalleImageModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66F114D2-E0B3-44AD-848F-CA96AB0C4E38"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/DallePropmter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "enchancedImageGeneration(prompt:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9EDA248-33F9-4866-830F-1E39A337BCC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pocket Painting/Model/Dalle-api/dalleResponse.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
